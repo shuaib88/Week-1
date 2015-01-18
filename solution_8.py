@@ -1,12 +1,14 @@
-#The following result in syntax errors
-6 * ———--8​
-# I' don't even know how to make the — character
-8 = people
-# people was not defined
-4 += 7 / 2
-# can't assign to literal (no variable can have a digit as a name; also even
-# if you had a name you'd probably get an undefined error if you didn't previously
-# define the variable.
+## - #8 page 54
+##The following program will convert celsius temperatures into fahrenheit
+
+def Fahrenheit_2_Celsius():
+    print("I'm going to help you convert Fahrenheit to Celsius!")
+    print()
+    fahrenheit = eval(input("What Fahrenheit temp would you like to convert? "))
+    celsius = (fahrenheit - 32) * 5 / 9 
+    print("The temperature is " + str(celsius) + " degrees celsius ")
+
+Fahrenheit_2_Celsius()
 
 
 
